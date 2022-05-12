@@ -61,3 +61,15 @@ Core Values
     We value collaborative, long term, mutually beneficial customer
     relationships and we let that reflect in our desire to make maintainable,
     long-lived projects.
+
+
+Key Advantages
+--------------
+
+* Web framework with a focus on specialized (scientific) applications
+* Boilerplate decisions are made for you
+* Focus on the choices that are most relevant for your project’s requirements
+* Rich set of out-of-the box features: user management, authentication, etc.
+* File upload/download management to S3
+* Initial solutions to data processing
+* Template for front-end projects
