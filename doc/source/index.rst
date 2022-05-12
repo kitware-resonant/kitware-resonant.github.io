@@ -1,20 +1,63 @@
-.. girder documentation master file, created by
-   sphinx-quickstart on Sun Apr 10 22:53:43 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to girder's documentation!
-==================================
+Girder
+======
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
+   :hidden:
+
+   self
+
+
+.. toctree::
+   :caption: Explanation
+   :hidden:
+
+   explanation/index
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+*Girder* is the Kitware Data and Analytics team’s framework we use to create
+rich web applications and APIs tailored to specific kinds of data and tasks.
+
+
+Core Values
+-----------
+
+
+.. panels::
+    :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-3
+
+    Customer Intimacy
+    ^^^^^^^^^^^^^^^^^
+
+    We work closely with our customers to understand their business and needs
+    to properly model their domain in the web solutions we build for them.
+
+
+    ---
+
+    Tailored Solutions
+    ^^^^^^^^^^^^^^^^^^
+
+    We develop custom, bespoke applications for our customers' needs and
+    circumstances, maximizing the chance of customer success.
+
+
+    ---
+
+    Operational efficiency
+    ^^^^^^^^^^^^^^^^^^^^^^
+
+    We focus on the most pressing and important problems, and we leave the more
+    common problems to the open source software we build upon.
+
+
+    ---
+
+    Software sustainability
+    ^^^^^^^^^^^^^^^^^^^^^^
+
+    We value collaborative, long term, mutually beneficial customer
+    relationships and we let that reflect in our desire to make maintainable,
+    long-lived projects.
