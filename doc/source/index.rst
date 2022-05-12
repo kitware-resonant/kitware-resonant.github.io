@@ -6,6 +6,7 @@ Girder
    :hidden:
 
    self
+   success
 
 
 .. toctree::
@@ -15,6 +16,11 @@ Girder
    explanation/index
 
 
+.. toctree::
+   :caption: Tutorials
+   :hidden:
+
+   tutorials/index
 
 
 *Girder* is the Kitware Data and Analytics team’s framework we use to create

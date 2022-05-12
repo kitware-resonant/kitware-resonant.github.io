@@ -4,7 +4,9 @@ What is Girder?
 .. toctree::
    :hidden:
 
+   girders
    girder4
+   django
 
 
 **Girder 4** is the Kitware Data and Analytics team’s newest version of the framework we use to create rich web applications and APIs tailored to specific kinds of data and tasks. Girder 4 is the direct successor to Girder 3, which used the CherryPy web server framework to present a monolithic platform upon which to build specific applications. Girder 4 marks a technology shift that enables us to build those applications more effectively: it is based instead upon Django, a more expansive web application framework with out-of-the-box support for many of the nuts and bolts of web application engineering. Django’s integrated support for domain models backed by a comprehensive object-relational mapping (ORM) means that Girder 4 projects place *domain-driven design* front and center, enabling our team to better understand and address the computing and data problems we take on, so we can deliver the right solution every time.
