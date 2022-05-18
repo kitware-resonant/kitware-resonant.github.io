@@ -14,10 +14,12 @@ sphinx-notfound-page = "^0.8"
 sphinx-panels = "^0.6.0"
 furo = "^2022.4.7"
 taskipy = "^1.10.2"
+sphinx-autobuild = "^2021.3.14"
 
 [tool.taskipy.tasks]
-build = { cmd = "make html -C doc", help = "Build the HTML version of the documentation" }
+build = { cmd = "make html -C doc", help = "Build the HTML documentation" }
 serve = { cmd = "python -m http.server --bind 127.0.0.1 -d doc/build/html", help = "Serve the built docs (supply an optional port number, 8000 by default)" }
+watch = { cmd = "make livehtml -C doc", help = "Build the HTML documentation in watch mode" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
