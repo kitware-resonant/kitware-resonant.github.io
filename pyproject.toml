@@ -13,6 +13,11 @@ sphinx-copybutton = "^0.5.0"
 sphinx-notfound-page = "^0.8"
 sphinx-panels = "^0.6.0"
 furo = "^2022.4.7"
+taskipy = "^1.10.2"
+
+[tool.taskipy.tasks]
+build = { cmd = "make html -C doc", help = "Build the HTML version of the documentation" }
+serve = { cmd = "python -m http.server --bind 127.0.0.1 -d doc/build/html", help = "Serve the built docs (supply an optional port number, 8000 by default)" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
