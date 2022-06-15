@@ -52,7 +52,7 @@ Core Values
 
     ---
 
-    Operational efficiency
+    Operational Efficiency
     ^^^^^^^^^^^^^^^^^^^^^^
 
     We focus on the most pressing and important problems, and we leave the more
@@ -61,7 +61,7 @@ Core Values
 
     ---
 
-    Software sustainability
+    Software Sustainability
     ^^^^^^^^^^^^^^^^^^^^^^
 
     We value collaborative, long term, mutually beneficial customer
