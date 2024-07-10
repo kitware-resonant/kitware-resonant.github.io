@@ -1,5 +1,5 @@
-Girder
-======
+Resonant
+========
 
 .. toctree::
    :caption: Contents
@@ -17,7 +17,7 @@ Girder
 
 
 
-*Girder* is the Kitware Data and Analytics team’s framework we use to create
+*Resonant* is the Kitware Data and Analytics team’s framework we use to create
 rich web applications and APIs tailored to specific kinds of data and tasks.
 
 

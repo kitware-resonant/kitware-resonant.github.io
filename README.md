@@ -1,6 +1,6 @@
-# girder-4
+# resonant
 
-Girder 4 documentation materials.
+Resonant documentation materials.
 
 ## Build instructions
 
