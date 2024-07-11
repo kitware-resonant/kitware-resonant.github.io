@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "girder-4"
+name = "resonant_docs"
 version = "0.1.0"
-description = "Documentation for Girder"
+description = "Documentation for Resonant"
 authors = ["Kitware D&A Team <data-analytics@kitware.com>"]
 
 [tool.poetry.dependencies]
