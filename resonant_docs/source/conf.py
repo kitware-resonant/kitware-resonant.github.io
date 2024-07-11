@@ -74,7 +74,7 @@ html_context = {
     "github_user": "resonant",
     "github_repo": "resonant",
     "github_version": "master",
-    "doc_path": "doc",
+    "doc_path": "resonant_docs",
 }
 
 html_theme_options = {

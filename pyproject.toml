@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "resonant"
+name = "resonant_docs"
 version = "0.1.0"
 description = "Documentation for Resonant"
 authors = ["Kitware D&A Team <data-analytics@kitware.com>"]
