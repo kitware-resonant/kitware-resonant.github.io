@@ -1,25 +1,26 @@
 [tool.poetry]
 name = "resonant_docs"
 version = "0.1.0"
-description = "Documentation for Resonant"
+description = "Resonant marketing website"
 authors = ["Kitware D&A Team <data-analytics@kitware.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.12"
 
-[tool.poetry.dev-dependencies]
-Sphinx = "^4.5.0"
-sphinx-copybutton = "^0.5.0"
-sphinx-notfound-page = "^0.8"
-sphinx-panels = "^0.6.0"
-furo = "^2022.4.7"
-taskipy = "^1.10.2"
-sphinx-autobuild = "^2021.3.14"
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.4.5"
+sphinx-copybutton = "^0.5.2"
+sphinx-design = "^0.6.0"
+furo = "^2024.5.6"
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.13.0"
+sphinx-autobuild = "^2024.4.16"
 
 [tool.taskipy.tasks]
-build = { cmd = "make html -C doc", help = "Build the HTML documentation" }
-serve = { cmd = "python -m http.server --bind 127.0.0.1 -d doc/build/html", help = "Serve the built docs (supply an optional port number, 8000 by default)" }
-watch = { cmd = "make livehtml -C doc", help = "Build the HTML documentation in watch mode" }
+pre_build = "rm -rf ./build"
+build = "sphinx-build -M html resonant_docs build"
+watch = "sphinx-autobuild --port 0 resonant_docs build"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

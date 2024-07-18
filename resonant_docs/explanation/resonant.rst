@@ -8,7 +8,7 @@ applications with Django, Django Rest Framework (DRF), PostgreSQL, and Celery.
 Ecosystem
 ---------
 
-Functionality is broken into `many tagged repositories on GitHub <https://github.com/orgs/kitware-resonant/repositories?`_.
+Functionality is broken into `many repositories on GitHub <https://github.com/kitware-resonant>`_.
 Each does one thing well and can generally be used on its own.
 
 * `django-s3-file-field <https://github.com/kitware-resonant/django-s3-file-field>`_
