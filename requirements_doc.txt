@@ -1,5 +1,0 @@
-sphinx
-sphinx-copybutton
-sphinx-notfound-page
-sphinx-panels
-furo
